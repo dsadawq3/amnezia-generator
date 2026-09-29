@@ -1,0 +1,16 @@
+# Сгенерированные конфиги и приватные ключи
+*.conf
+!testdata/*.conf
+vpn://*
+link_*.txt
+warp-masque-clash.yaml
+
+# Replit
+.config/
+.ql/
+
+# Прочее
+*.log
+.DS_Store
+Thumbs.db
+_verify_links.py
