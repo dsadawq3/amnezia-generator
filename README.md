@@ -13,9 +13,10 @@
 
 **[Русский](#)** · [English](#english)
 
-> ⚠️ **Перед пушем своего форка** замени `<ТВОЙ_АККАУНТ>` во всех командах
-> `raw.githubusercontent.com/...` на свой GitHub-логин, а бейдж Replit и
-> ссылку на Codespaces — на адрес своего репозитория.
+> 💡 Форкнул оригинальный [ImMALWARE/bash-warp-generator](https://github.com/ImMALWARE/bash-warp-generator)?
+> Команды выше уже указывают на `dsadawq3/amnezia-generator`. Если ты сделал
+> форк под своим аккаунтом — замени `dsadawq3` на свой логин во всех ссылках
+> `raw.githubusercontent.com/...`, в бейдже Replit и в ссылке на Codespaces.
 
 </div>
 
@@ -54,7 +55,7 @@
 3. Когда откроется терминал, вставь (<kbd>Shift</kbd> + <kbd>Insert</kbd>):
 
 ```bash
-bash <(wget --inet4-only -qO- https://raw.githubusercontent.com/<ТВОЙ_АККАУНТ>/amnezia-generator/main/warp_generator.sh)
+bash <(wget --inet4-only -qO- https://raw.githubusercontent.com/dsadawq3/amnezia-generator/main/warp_generator.sh)
 ```
 
 4. Скрипт спросит версию протокола — выбери `1.5`, `2`, `3.1` или `wg`
@@ -62,7 +63,7 @@ bash <(wget --inet4-only -qO- https://raw.githubusercontent.com/<ТВОЙ_АКК
 
 ### Вариант 2 — Replit
 
-[![Run on Repl.it](https://repl.it/badge/github/replit/upm)](https://replit.com/new/github/<ТВОЙ_АККАУНТ>/amnezia-generator)
+[![Run on Repl.it](https://repl.it/badge/github/replit/upm)](https://replit.com/new/github/dsadawq3/amnezia-generator)
 
 1. Нажми **▶️ Project**
 2. В консоли введи `1` — WARP для AmneziaWG, или `3` — MASQUE для Clash
@@ -71,7 +72,7 @@ bash <(wget --inet4-only -qO- https://raw.githubusercontent.com/<ТВОЙ_АКК
 
 ### Вариант 3 — GitHub Codespaces
 
-1. Открой <https://github.com/<ТВОЙ_АККАУНТ>/amnezia-generator/codespaces>
+1. Открой <https://github.com/dsadawq3/amnezia-generator/codespaces>
 2. **Create codespace on main**
 3. В терминале:
 
@@ -84,7 +85,7 @@ bash warp_generator.sh
 ### Вариант 4 — свой сервер
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<ТВОЙ_АККАУНТ>/amnezia-generator/main/warp_generator.sh -o warp_generator.sh
+curl -fsSL https://raw.githubusercontent.com/dsadawq3/amnezia-generator/main/warp_generator.sh -o warp_generator.sh
 bash warp_generator.sh --awg-version 3.1
 ```
 

@@ -1,0 +1,18 @@
+# Скрипты и тексты конфигов должны быть в LF, иначе bash ломается на Linux/macOS
+* text=auto eol=lf
+
+*.sh text eol=lf
+.replit text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Сгенерированные конфиги — всегда LF (их читает amneziawg-tools)
+*.conf text eol=lf
+
+# бинарники
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.zip binary
